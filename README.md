@@ -6,9 +6,9 @@ Step by step:
 - Get the Webhook URL e.g. https://hooks.slack.com/services/<some cryptic secrets>
 - Put the Webhook URL into the `prayer-times.sh` 
 - We will use API from http://muslimsalat.com/api/ 
-- This simple script will use the location specific API e.g. JSON URL = http://muslimsalat.com/singapore.json for Singapore
-- Find the JSON URL for your location e.g. jakarta.json, london.json, dubai.json
-- Put the JSON URL into the `prayer-times.sh` 
+- This simple script will use the location specific API e.g. JSON URL = http://muslimsalat.com/gresik.json for Gresik, East Java, Indonesia
+- Find the valid JSON URL for your location e.g. singapore.json, jakarta.json, london.json, dubai.json
+- Put the city name of that valid JSON URL into the `prayer-times.sh` e.g. 'newyork'
 - OPTIONAL: Modify the Slack username (can be any name, you don't have to create the user beforehand) in `prayer-times.sh` 
 - OPTIONAL: Modify the Slack #channelname in `prayer-times.sh` 
 - OPTIONAL: Modify the emoji name to be used as user's icon
