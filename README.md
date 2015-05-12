@@ -14,3 +14,5 @@ Step by step:
 - OPTIONAL: Modify the emoji name to be used as user's icon
 - Execute the script in Terminal to see immediate result, or 
 - Setup a cron job to automate it
+
+Here's how it will look like in your channel: ![Gresik Prayer Times Slack BOT Integration](http://oi61.tinypic.com/2rdu3rm.jpg)
