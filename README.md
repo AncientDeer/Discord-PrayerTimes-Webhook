@@ -3,7 +3,7 @@ Salat Prayer Times bot for Slack integration
 
 Step by step:
 - Setup an Incoming Webhooks in Slack's Integration: yours.slack.com/services/new/incoming-webhook
-- Get the Webhook URL e.g. https://hooks.slack.com/services/<some cryptic secrets>
+- Get the Webhook URL e.g. https://hooks.slack.com/services/some-cryptic-secrets
 - Put the Webhook URL into the `prayer-times.sh` 
 - We will use API from http://muslimsalat.com/api/ 
 - This simple script will use the location specific API e.g. JSON URL = http://muslimsalat.com/gresik.json for Gresik, East Java, Indonesia
