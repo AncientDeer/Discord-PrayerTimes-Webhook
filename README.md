@@ -5,4 +5,12 @@ Step by step:
 - Setup an Incoming Webhooks in Slack's Integration: yours.slack.com/services/new/incoming-webhook
 - Get the Webhook URL e.g. https://hooks.slack.com/services/<some cryptic secrets>
 - Put the Webhook URL into the `prayer-times.sh` 
-- Execute the script in Terminal or setup a cron job to automate it
+- We will use API from http://muslimsalat.com/api/ 
+- This simple script will use the location specific API e.g. JSON URL = http://muslimsalat.com/singapore.json for Singapore
+- Find the JSON URL for your location e.g. jakarta.json, london.json, dubai.json
+- Put the JSON URL into the `prayer-times.sh` 
+- OPTIONAL: Modify the Slack username (can be any name, you don't have to create the user beforehand) in `prayer-times.sh` 
+- OPTIONAL: Modify the Slack #channelname in `prayer-times.sh` 
+- OPTIONAL: Modify the emoji name to be used as user's icon
+- Execute the script in Terminal to see immediate result, or 
+- Setup a cron job to automate it
