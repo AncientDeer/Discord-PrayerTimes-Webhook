@@ -2,9 +2,6 @@
 
 cityname='Edmonton'
 jsonURL=`echo http://muslimsalat.com/$cityname.json`
-channelname='#general'
-username=`echo $cityname-prayer-times`
-emojicon=':dromedary_camel:'
 webhookURL='https://discordapp.com/api/webhooks/303372078755610624/ajf5h0GLKQmUV0x0HbLyFQiNi4sNBzQBpuFsckJxuYuhOwoNk3mvpKkkXhIV38S9hFyR'
 
 json=`curl -s -X GET $jsonURL`
