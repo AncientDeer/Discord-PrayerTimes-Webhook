@@ -5,7 +5,7 @@ jsonURL=`echo http://muslimsalat.com/$cityname.json`
 channelname='#general'
 username=`echo $cityname-prayer-times`
 emojicon=':dromedary_camel:'
-webhookURL='https://hooks.slack.com/services/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'
+webhookURL='https://discordapp.com/api/webhooks/303372078755610624/ajf5h0GLKQmUV0x0HbLyFQiNi4sNBzQBpuFsckJxuYuhOwoNk3mvpKkkXhIV38S9hFyR'
 
 json=`curl -s -X GET $jsonURL`
 prayertimes=`echo $json | sed 's/\\\\\//\//g' | sed 's/[{}]//g' | awk -v k="text" '{n=split($0,a,","); for (i=1; i<=n; i++) print a[i]}' | sed 's/\"\:\"/\|/g' | sed 's/[\,]/ /g' | sed 's/\"//g' | grep -w 'fajr\|shurooq\|dhuhr\|asr\|maghrib\|isha'`
